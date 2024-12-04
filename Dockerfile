@@ -1,4 +1,4 @@
-FROM php:8.3-bullseye
+FROM php:8.4-bullseye
 
 RUN apt-get update && \
         pecl channel-update pecl.php.net && \
